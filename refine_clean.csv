@@ -1,0 +1,26 @@
+company,product_code,product_number,product_category,full_address,address,city,country,name,company_akzo,company_phillips,company_unilever,company_van_houten,product_smartphone,product_tv,product_laptop,product_tablet
+akzo,v,43,TV,"Leeuwardenweg 178, arnhem, the netherlands",Leeuwardenweg 178,arnhem,the netherlands,dhr p. bansen,1,0,0,0,0,1,0,0
+akzo,v,12,TV,"Leeuwardenweg 179, arnhem, the netherlands",Leeuwardenweg 179,arnhem,the netherlands,dhr p. vansen,1,0,0,0,0,1,0,0
+akzo,x,5,Laptop,"Leeuwardenweg 180, arnhem, the netherlands",Leeuwardenweg 180,arnhem,the netherlands,dhr p. bransen,1,0,0,0,0,0,1,0
+akzo,p,34,Smartphone,"Leeuwardenweg 181, arnhem, the netherlands",Leeuwardenweg 181,arnhem,the netherlands,dhr p. janssen,1,0,0,0,1,0,0,0
+akzo,q,5,Tablet,"Leeuwardenweg 182, arnhem, the netherlands",Leeuwardenweg 182,arnhem,the netherlands,mevr l.  rokken,1,0,0,0,0,0,0,1
+akzo,q,9,Tablet,"Leeuwardenweg 183, arnhem, the netherlands",Leeuwardenweg 183,arnhem,the netherlands,mevr l.  lokken,1,0,0,0,0,0,0,1
+akzo,x,8,Laptop,"Leeuwardenweg 184, arnhem, the netherlands",Leeuwardenweg 184,arnhem,the netherlands,mevr l.  mokken,1,0,0,0,0,0,1,0
+phillips,p,5,Smartphone,"Groningensingel 147, arnhem, the netherlands",Groningensingel 147,arnhem,the netherlands,dhr p. jansen,0,1,0,0,1,0,0,0
+phillips,p,43,Smartphone,"Groningensingel 148, arnhem, the netherlands",Groningensingel 148,arnhem,the netherlands,dhr p. hansen,0,1,0,0,1,0,0,0
+phillips,x,3,Laptop,"Groningensingel 149, arnhem, the netherlands",Groningensingel 149,arnhem,the netherlands,dhr j. Gansen,0,1,0,0,0,0,1,0
+phillips,x,34,Laptop,"Groningensingel 150, arnhem, the netherlands",Groningensingel 150,arnhem,the netherlands,dhr p. mansen,0,1,0,0,0,0,1,0
+phillips,x,12,Laptop,"Groningensingel 151, arnhem, the netherlands",Groningensingel 151,arnhem,the netherlands,dhr p. fransen,0,1,0,0,0,0,1,0
+phillips,p,23,Smartphone,"Groningensingel 152, arnhem, the netherlands",Groningensingel 152,arnhem,the netherlands,dhr p. franssen,0,1,0,0,1,0,0,0
+phillips,p,56,Smartphone,"Delfzijlstraat 54, arnhem, the netherlands",Delfzijlstraat 54,arnhem,the netherlands,mevr l.  mokken,0,1,0,0,1,0,0,0
+phillips,v,67,TV,"Delfzijlstraat 55, arnhem, the netherlands",Delfzijlstraat 55,arnhem,the netherlands,mevr l.  mokken,0,1,0,0,0,1,0,0
+phillips,v,21,TV,"Delfzijlstraat 56, arnhem, the netherlands",Delfzijlstraat 56,arnhem,the netherlands,mevr l.  mokken,0,1,0,0,0,1,0,0
+unilever,x,3,Laptop,"Jourestraat 23, arnhem, the netherlands",Jourestraat 23,arnhem,the netherlands,mevr l.  gokken,0,0,1,0,0,0,1,0
+unilever,q,4,Tablet,"Jourestraat 24, arnhem, the netherlands",Jourestraat 24,arnhem,the netherlands,mevr l.  stokken,0,0,1,0,0,0,0,1
+unilever,q,6,Tablet,"Jourestraat 25, arnhem, the netherlands",Jourestraat 25,arnhem,the netherlands,mevr l.  rokken,0,0,1,0,0,0,0,1
+unilever,q,8,Tablet,"Jourestraat 26, arnhem, the netherlands",Jourestraat 26,arnhem,the netherlands,mevr l.  rokken,0,0,1,0,0,0,0,1
+van houten,x,45,Laptop,"Delfzijlstraat 57, arnhem, the netherlands",Delfzijlstraat 57,arnhem,the netherlands,mevr l.  sokken,0,0,0,1,0,0,1,0
+van houten,v,56,TV,"Delfzijlstraat 58, arnhem, the netherlands",Delfzijlstraat 58,arnhem,the netherlands,mevr l.  wokken,0,0,0,1,0,1,0,0
+van houten,v,65,TV,"Delfzijlstraat 59, arnhem, the netherlands",Delfzijlstraat 59,arnhem,the netherlands,mevr l.  kokken,0,0,0,1,0,1,0,0
+van houten,x,21,Laptop,"Delfzijlstraat 60, arnhem, the netherlands",Delfzijlstraat 60,arnhem,the netherlands,mevr l.  Bokken,0,0,0,1,0,0,1,0
+van houten,p,23,Smartphone,"Delfzijlstraat 61, arnhem, the netherlands",Delfzijlstraat 61,arnhem,the netherlands,mevr l.  dokken,0,0,0,1,1,0,0,0
