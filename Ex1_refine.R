@@ -1,5 +1,5 @@
+#Set package location and load libraries
 .libPaths("C:/Users/emily_rinaldi/Desktop/R/win-library/3.2")
-setwd("C:/Users/emily_rinaldi/Desktop/Springboard/Exercise 1")
 library(dplyr)
 library(tidyr)
 library(readr)
