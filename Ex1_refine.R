@@ -8,22 +8,12 @@ library(readr)
 refine_orig <- read.csv("refine_original.csv")
 refine_orig <- tbl_df(refine_orig)
 
-#Create list of unique company names to normalize
-unique_comps <- refine_orig %>% 
-  transmute(lowers = tolower(company)) %>% 
-  arrange(lowers) %>%
-  distinct(lowers)
-
-#Create a dataframe to lookup normalized company names
-norm_names <- c(rep("akzo", times = 3), rep("phillips", times = 6), rep("unilever", times = 2), "van houten")
-norm_comps_df <- data_frame(company = as.vector(unique_comps$lowers), norm_names)
-
-#Lookup and replate normalized company names
-refine_2 <- refine_orig %>% 
-  mutate(company = tolower(company)) %>% 
-  left_join(norm_comps_df) %>% 
-  mutate(company = norm_names) %>% 
-  select(-norm_names)
+#Standardize company names
+refine_2 <- refine_orig %>%
+  mutate(company=tolower(company)) %>%
+  mutate(company=ifelse(grepl('^ph|fi', company), 'phillips', company)) %>%
+  mutate(company=ifelse(grepl('^ak', company), 'akzo', company)) %>%
+  mutate(company=ifelse(grepl('^uni', company), 'unilever', company))
 
 
 #Add Product_Category variable based on first character of Product.code...number variable
