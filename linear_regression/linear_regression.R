@@ -237,6 +237,7 @@ coef(summary(lm(csat ~ C(region, contr.helmert),
 ##      generating an interaction term and testing the interaction.
 
 sts.mod3 <- lm(energy ~ metro*income, data = states.data)
+summary(sts.mod3)
 coef(summary(sts.mod3))
 
 # The interaction term is significant which means the effect of metro on energy depends 
