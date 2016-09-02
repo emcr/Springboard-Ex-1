@@ -150,13 +150,11 @@ hist(nrg.mod$residuals)
 ##   Select one or more additional predictors to add to your model and
 ##   repeat steps 1-3. Is this model significantly better than the model
 ##   with /metro/ as the only predictor?
-sts.nrg.miles <- subset(states.data, select = c("miles", "energy"))
-summary(sts.nrg.miles)
-plot(sts.nrg.miles)
+sts.nrg.miles.inc <- subset(states.data, select = c("energy", "miles", "income"))
+summary(sts.nrg.miles.inc)
+plot(sts.nrg.miles.inc)
+cor(sts.nrg.miles.inc, use = "pairwise")
 
-sts.nrg.inc <- subset(states.data, select = c("income", "energy"))
-summary(sts.nrg.inc)
-plot(sts.nrg.inc)
 
 sts.mod2 <- lm(energy ~ metro + miles + income,
                   data = states.data)
